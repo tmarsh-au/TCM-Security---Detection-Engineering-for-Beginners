@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" modified="2024-01-09T09:51:22.716Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="30WsC7h6WXbwaJWRIWGA" version="22.1.17" type="device">
+  <diagram name="Page-1" id="GwmhDmBE0P4Hu8c-JC2Q">
+    <mxGraphModel dx="1050" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LH0WeLVpW5B8TSmtRANs-3" value="My Computer" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="400" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="LH0WeLVpW5B8TSmtRANs-4" value="Hypervisor - VirtualBox" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="LH0WeLVpW5B8TSmtRANs-3">
+          <mxGeometry x="40" y="80" width="320" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="LH0WeLVpW5B8TSmtRANs-5" value="VM - Ubuntu (Zeek)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="LH0WeLVpW5B8TSmtRANs-4">
+          <mxGeometry x="40" y="40" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LH0WeLVpW5B8TSmtRANs-10" value="Agent" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="LH0WeLVpW5B8TSmtRANs-5">
+          <mxGeometry x="170" y="30" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LH0WeLVpW5B8TSmtRANs-6" value="VM - Windows 11" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="LH0WeLVpW5B8TSmtRANs-4">
+          <mxGeometry x="40" y="150" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LH0WeLVpW5B8TSmtRANs-9" value="Agent" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="LH0WeLVpW5B8TSmtRANs-6">
+          <mxGeometry x="170" y="30" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LH0WeLVpW5B8TSmtRANs-7" value="VM - ParrotOS (Attacker Box)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="LH0WeLVpW5B8TSmtRANs-4">
+          <mxGeometry x="40" y="290" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LH0WeLVpW5B8TSmtRANs-11" value="SIEM - Elastic" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="200" width="190" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="LH0WeLVpW5B8TSmtRANs-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.13;entryY=0.77;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LH0WeLVpW5B8TSmtRANs-9" target="LH0WeLVpW5B8TSmtRANs-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LH0WeLVpW5B8TSmtRANs-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LH0WeLVpW5B8TSmtRANs-10" target="LH0WeLVpW5B8TSmtRANs-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
