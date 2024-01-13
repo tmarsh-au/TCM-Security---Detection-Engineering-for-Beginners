@@ -22,3 +22,6 @@
 
  Network Security Monitoring Tool:  
     - Zeek (https://docs.zeek.org/en/master/install.html)  
+
+ Security, Information & Event Monitoring (SIEM) Tool:  
+    - Elastic (https://cloud.elastic.co/)  
