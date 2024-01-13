@@ -4,6 +4,10 @@
 
 
 ## Links for tools that I used in this course
+ Repository Tool:
+    - Github (https://github.com/)  
+    - Github Desktop (https://desktop.github.com/) 
+
  Digram Drawer:  
     - Draw.io Web (https://app.diagrams.net/)  
     - Draw.io Desktop (https://github.com/jgraph/drawio-desktop)
@@ -16,6 +20,5 @@
     - ParotOS (https://www.parrotsec.org/download/)  
     - Ubuntu Desktop (https://ubuntu.com/download/desktop)  
 
- Repository Tools:
-    - Github (https://github.com/)  
-    - Github Desktop (https://desktop.github.com/)  
+ Network Security Monitoring Tool:  
+    - Zeek (https://docs.zeek.org/en/master/install.html)  
