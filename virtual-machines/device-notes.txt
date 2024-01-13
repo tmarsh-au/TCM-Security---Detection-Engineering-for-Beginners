@@ -1,0 +1,2 @@
+Parrot IP Address:              192.168.56.101
+Windows 11 IP Address:          192.168.56.103

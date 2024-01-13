@@ -1,5 +1,4 @@
 # Folders
-screenshots
 
 
 # Files or File Types
@@ -9,4 +8,3 @@ screenshots
 *.nvram
 *.vbox
 *.vbox-prev
-device-notes.txt
