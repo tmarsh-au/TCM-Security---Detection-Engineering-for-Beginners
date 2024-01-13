@@ -8,3 +8,7 @@
 *.nvram
 *.vbox
 *.vbox-prev
+Unattended-ddb15b45-5814-40c8-8b4f-691a59843b2e-aux-iso.viso
+Unattended-ddb15b45-5814-40c8-8b4f-691a59843b2e-grub.cfg
+Unattended-ddb15b45-5814-40c8-8b4f-691a59843b2e-preseed.cfg
+Unattended-ddb15b45-5814-40c8-8b4f-691a59843b2e-vboxpostinstall.sh
