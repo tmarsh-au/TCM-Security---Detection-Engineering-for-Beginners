@@ -1,13 +1,12 @@
 # Folders
-Windows 11
 screenshots
 
 
 # Files or File Types
 *.ova
 *.iso
-Parrot Security-disk001.vdi
-Parrot.nvram
-Parrot.vbox
-Parrot.vbox-prev
+*.vdi
+*.nvram
+*.vbox
+*.vbox-prev
 device-notes.txt
