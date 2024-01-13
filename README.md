@@ -16,4 +16,6 @@
     - ParotOS (https://www.parrotsec.org/download/)  
     - Ubuntu Desktop (https://ubuntu.com/download/desktop)  
 
- 
+ Repository Tools:
+    - Github (https://github.com/)  
+    - Github Desktop (https://desktop.github.com/)  
